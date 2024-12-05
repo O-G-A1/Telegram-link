@@ -201,9 +201,41 @@ div.content3 h2 {
 .imagediv img {
   width: 120px;
 }
+
+.content4a {
+  width: 80%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(0, 30, 54);
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+div.content4a img {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 120px;
+}
+div.content4a h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+div.content4a a {
+  margin: 0 auto;
+  border: 1px solid rgb(245, 119, 45);
+  border-radius: 5px;
+  color: rgb(245, 119, 45);
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
 .content4 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -231,9 +263,40 @@ div.content4 a {
   margin-top: 20px;
 }
 
+.content5a {
+  width: 80%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(0, 30, 54);
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+div.content5a img {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 120px;
+}
+div.content5a h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+div.content5a a {
+  margin: 0 auto;
+  border: 1px solid rgb(245, 119, 45);
+  border-radius: 5px;
+  color: rgb(245, 119, 45);
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
 .content5 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -263,7 +326,7 @@ div.content5 a {
 
 .content6 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -293,7 +356,7 @@ div.content6 a {
 
 .content7 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -323,7 +386,7 @@ div.content7 a {
 
 .content8 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -353,7 +416,7 @@ div.content8 a {
 
 .content9 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -383,7 +446,7 @@ div.content9 a {
 
 .content10 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -413,7 +476,7 @@ div.content10 a {
 
 .content11 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -443,7 +506,7 @@ div.content11 a {
 
 .content12 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -473,7 +536,7 @@ div.content12 a {
 
 .content13 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -503,7 +566,7 @@ div.content13 a {
 
 .content14 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -533,7 +596,7 @@ div.content14 a {
 
 .content15 {
   width: 80%;
-  height: 250px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -743,6 +806,8 @@ div.footer11 p {
   div.content1 h2 {
     text-align: center;
     font-size: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
   div.content1 p {
     margin-top: 10px;
@@ -780,6 +845,37 @@ div.footer11 p {
     font-weight: bold;
   }
 
+  .content4a {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: rgb(0, 30, 54);
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  div.content4a img {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 120px;
+  }
+  div.content4a h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  div.content4a a {
+    margin: 0 auto;
+    border: 1px solid rgb(245, 119, 45);
+    border-radius: 5px;
+    color: rgb(245, 119, 45);
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
   .content4 {
     width: 80%;
     height: 250px;
@@ -801,6 +897,37 @@ div.footer11 p {
     font-size: 15px;
   }
   div.content4 a {
+    margin: 0 auto;
+    border: 1px solid rgb(245, 119, 45);
+    border-radius: 5px;
+    color: rgb(245, 119, 45);
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+
+  .content5a {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(0, 30, 54);
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  div.content5a img {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 120px;
+  }
+  div.content5a h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  div.content5a a {
     margin: 0 auto;
     border: 1px solid rgb(245, 119, 45);
     border-radius: 5px;
